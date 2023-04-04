@@ -1,0 +1,306 @@
+﻿* {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+    /*text-align: center;*/
+}
+body{
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+.iconfont {
+    font-family: "iconfont" !important;
+    font-size: 16px;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: 0.2px;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon {
+    width: 1em;
+    height: 1em;
+    vertical-align: -0.15em;
+    fill: currentColor;
+    overflow: hidden;
+}
+
+a,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+li {
+    text-align: center;
+    color: black;
+}
+
+h1 {
+    font-size: 30px;
+    font-weight: 700;
+    text-shadow: 0 1px 4px rgba(0, 0, 0, .2);
+}
+
+form {
+    position: relative;
+    width: 305px;
+    margin: 15px auto 0 auto;
+    text-align: center;
+}
+
+.head-menu {
+    width: 100%;
+    height: 50px;
+    display: block;
+    overflow: hidden;
+    font-weight:bold;
+    /*background: #CCCCCC;*/
+    /*border-bottom: #CCCCCC;*/
+}
+
+.head-menu:hover {
+    background: #e7e7e7;
+    border-bottom: #e7e7e7;
+    transition-duration: .8s;
+}
+
+
+/*.head-menu ul{
+	width: 80%;
+	margin: 0 auto;
+	display: block;
+	overflow: hidden;
+}*/
+
+.menu-container {
+    width: 80%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.left {
+    float: left;
+    width: 20%;
+    overflow: hidden;
+}
+
+.right {
+    float: right;
+    margin-left: 20%;
+    width: 60%;
+    overflow: hidden;
+}
+
+.right li {
+    display: block;
+    height: 47px;
+    float: right;
+    overflow:hidden;
+    margin-right:25px;
+}
+
+.right li i{
+    display:block;
+    height:50px;
+    line-height:50px;
+    float:left;
+    text-align:center;
+    /*margin-right:5px;*/
+}
+
+.right li a {
+    float:left;
+    /*width: 80px;*/
+    height: 50px;
+    line-height: 50px;
+    display: block;
+    text-align:left;
+    margin-left:1px;
+}
+
+.right li:hover {
+    color: #48a5f4;
+    /*border-bottom: 2px solid #48a5f4;*/
+    transition-duration: .8s;
+}
+.right li a:hover {
+    color: #48a5f4;
+    /*border-bottom: 2px solid #48a5f4;*/
+    transition-duration: .8s;
+}
+
+.web_bg {
+    /* background-image: url('https://api.bcrjl.com/api/img.rand.heng.php?sort=专属'); */
+    /* background-image: url('../image/bg.jpg'); */
+    background-image: url('https://cdn.bcrjl.com/mail/bg.jpg');
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -10;
+    zoom: 1;
+    background-color: #fff;
+    background-repeat: no-repeat;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    background-position: center 0;
+    opacity: 0.6;
+}
+
+.page-container {
+    margin: 120px auto 0 auto;
+}
+
+input {
+    width: 270px;
+    height: 42px;
+    margin-top: 25px;
+    padding: 0 15px;
+    background: #2d2d2d;
+    background: rgba(45, 45, 45, .15);
+    -moz-border-radius: 6px;
+    -webkit-border-radius: 6px;
+    border-radius: 20px;
+    border: 1px solid #3d3d3d;
+    border: 1px solid rgba(255, 255, 255, .15);
+    -moz-box-shadow: 0 2px 3px 0 rgba(0, 0, 0, .1) inset;
+    -webkit-box-shadow: 0 2px 3px 0 rgba(0, 0, 0, .1) inset;
+    box-shadow: 0 2px 3px 0 rgba(0, 0, 0, .1) inset;
+    font-family: 'PT Sans', Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: #fff;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, .1);
+    -o-transition: all .2s;
+    -moz-transition: all .2s;
+    -webkit-transition: all .2s;
+    -ms-transition: all .2s;
+}
+
+input:-moz-placeholder {
+    color: black;
+}
+
+input:-ms-input-placeholder {
+    color: black;
+}
+
+input::-webkit-input-placeholder {
+    color: black;
+}
+
+input:focus {
+    outline: none;
+    -moz-box-shadow: 0 2px 3px 0 rgba(0, 0, 0, .1) inset, 0 2px 7px 0 rgba(0, 0, 0, .2);
+    -webkit-box-shadow: 0 2px 3px 0 rgba(0, 0, 0, .1) inset, 0 2px 7px 0 rgba(0, 0, 0, .2);
+    box-shadow: 0 2px 3px 0 rgba(0, 0, 0, .1) inset, 0 2px 7px 0 rgba(0, 0, 0, .2);
+}
+input:hover{
+    border:1px solid #48a5f4;
+}
+
+.account-circle:before {
+    content: '\f205';
+}
+
+button {
+    cursor: pointer;
+    width: 300px;
+    height: 44px;
+    margin-top: 25px;
+    padding: 0;
+    background-color: #4a77d4;
+    /*background: #ef4300;*/
+    -moz-border-radius: 6px;
+    -webkit-border-radius: 6px;
+    border-radius: 20px;
+    border: 1px solid #4a77d4;
+    -moz-box-shadow: 0 15px 30px 0 rgba(255, 255, 255, .25) inset, 0 2px 7px 0 rgba(0, 0, 0, .2);
+    -webkit-box-shadow: 0 15px 30px 0 rgba(255, 255, 255, .25) inset, 0 2px 7px 0 rgba(0, 0, 0, .2);
+    box-shadow: 0 15px 30px 0 rgba(255, 255, 255, .25) inset, 0 2px 7px 0 rgba(0, 0, 0, .2);
+    font-family: 'PT Sans', Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    color: #fff;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, .1);
+    -o-transition: all .2s;
+    -moz-transition: all .2s;
+    -webkit-transition: all .2s;
+    -ms-transition: all .2s;
+}
+
+button:hover {
+    -moz-box-shadow: 0 15px 30px 0 rgba(255, 255, 255, .15) inset, 0 2px 7px 0 rgba(0, 0, 0, .2);
+    -webkit-box-shadow: 0 15px 30px 0 rgba(255, 255, 255, .15) inset, 0 2px 7px 0 rgba(0, 0, 0, .2);
+    box-shadow: 0 15px 30px 0 rgba(255, 255, 255, .15) inset, 0 2px 7px 0 rgba(0, 0, 0, .2);
+}
+
+button:active {
+    -moz-box-shadow: 0 15px 30px 0 rgba(255, 255, 255, .15) inset, 0 2px 7px 0 rgba(0, 0, 0, .2);
+    -webkit-box-shadow: 0 15px 30px 0 rgba(255, 255, 255, .15) inset, 0 2px 7px 0 rgba(0, 0, 0, .2);
+    box-shadow: 0 5px 8px 0 rgba(0, 0, 0, .1) inset, 0 1px 4px 0 rgba(0, 0, 0, .1);
+    border: 0px solid #ef4300;
+}
+
+.m_login {
+    display: none;
+}
+
+.copyright {
+    width: 100%;
+    height: 30px;
+    text-align: center;
+    position: fixed;
+    left: 0px;
+    bottom: 0px;
+    font-size: 13px;
+    font-weight: 700;
+    text-shadow: 0 1px 3px rgba(0, 0, 0, .2);
+}
+
+.copyright p {
+    outline: none !important;
+    /*color: #f96332;*/
+    font-family: 'Montserrat', Arial, Tahoma, sans-serif;
+}
+
+
+/*手机版样式*/
+
+@media screen and (max-width:600px) {
+    .head-menu {
+        display: none;
+    }
+    .m_login {
+        display: block;
+    }
+    .pc_login {
+        display: none;
+    }
+    .web_bg {
+        /*background-image: url('https://ae01.alicdn.com/kf/HTB14y67XBGw3KVjSZFw762Q2FXaE.png');*/
+        /* background-image: url('https://tva2.sinaimg.cn/large/8c534571ly1g72bdbmy7vj20u01hcx6q.jpg'); */
+        background-image: url('https://cdn.bcrjl.com/mail/20190916152014.png');
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        /*min-width: 1000px;*/
+        z-index: -10;
+        zoom: 1;
+        background-color: #fff;
+        background-repeat: no-repeat;
+        background-size: cover;
+        -webkit-background-size: cover;
+        -o-background-size: cover;
+        background-position: center 0;
+        opacity: 0.5;
+    }
+}
